@@ -36,7 +36,19 @@ If a player chooses a different color option the color of that counter should be
 
 *List the requirements/steps here based on the content section above. Include as many detailed/specific items as you feel are necessary*
 
+- Create grid layout with placeholders
+- Add content to player one element : button, player name, score
+- Add content to player two element : button, player name, score
+- Add content to in the lead element : heading, placeholder lead player
+- Select required elements : player buttons, player scores, in the lead placeholder
+- When the player one button is clicked update the player one score : add one and update display
+- When the player two button is clicked update the player two score : add one and update display
+- When either player button is clicked update the lead player display to the player with a higher score
+- When either player score reaches 10 reset the game : set both player scores back to zero and set the lead player back to a placeholder
+
 ### Site URL
 
 *Add the deployed project URL after walking through the hosting steps in class*
+
+https://cs-parttime-2020-fall.github.io/210126-project-two-autumn-ragland/
 
