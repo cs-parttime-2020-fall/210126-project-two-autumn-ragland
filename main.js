@@ -1,7 +1,7 @@
 console.log("Clicking Game");
 
 //select lead display
-let leadPlayer = document.querySelector("#leadPlayer")
+let leadPlayer = document.querySelector("#leadPlayer");
 // select score displays
 let smallScoreOne = document.querySelector("#smallScoreOne");
 let largeScoreOne = document.querySelector("#largeScoreOne");
@@ -131,6 +131,8 @@ resetGame = () => {
     largeScoreTwo.innerText = `${playerTwoScore}`;
 
     // BONUS -------------------------------------------
+    // reset winning number to default
+    stopCounting = 10;
     // update styling of non-selected buttons
     winningNumberBtns.forEach(btn => {
         btn.classList.remove("selectedButton");
